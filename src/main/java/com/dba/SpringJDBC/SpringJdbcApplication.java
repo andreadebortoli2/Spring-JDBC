@@ -25,7 +25,9 @@ public class SpringJdbcApplication {
 		service.addStudent(student);
 
 		List<Student> students = service.getStudents();
-		System.out.println(students);
+		for (Student s : students) {
+			System.out.printf("Student %d -> name: %s - marks: %d \n", s.getId(), s.getName(), s.getMarks());
+		}
 	}
 
 }
