@@ -13,6 +13,7 @@ import com.dba.SpringJDBC.service.StudentService;
 public class SpringJdbcApplication {
 
 	public static void main(String[] args) {
+
 		ApplicationContext ctx = SpringApplication.run(SpringJdbcApplication.class, args);
 
 		Student student = ctx.getBean(Student.class);
@@ -28,6 +29,7 @@ public class SpringJdbcApplication {
 		for (Student s : students) {
 			System.out.printf("Student %d -> name: %s - marks: %d \n", s.getId(), s.getName(), s.getMarks());
 		}
+
 	}
 
 }
