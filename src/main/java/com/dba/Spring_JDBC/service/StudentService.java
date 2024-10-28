@@ -1,12 +1,12 @@
-package com.dba.SpringJDBC.service;
+package com.dba.Spring_JDBC.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dba.SpringJDBC.model.Student;
-import com.dba.SpringJDBC.repository.StudentRepository;
+import com.dba.Spring_JDBC.model.Student;
+import com.dba.Spring_JDBC.repository.StudentRepository;
 
 @Service
 public class StudentService {

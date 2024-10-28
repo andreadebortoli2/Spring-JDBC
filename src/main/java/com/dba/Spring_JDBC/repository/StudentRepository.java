@@ -1,4 +1,4 @@
-package com.dba.SpringJDBC.repository;
+package com.dba.Spring_JDBC.repository;
 
 // import java.sql.ResultSet;
 // import java.sql.SQLException;
@@ -11,7 +11,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 // import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Repository;
 
-import com.dba.SpringJDBC.model.Student;
+import com.dba.Spring_JDBC.model.Student;
 
 @Repository
 public class StudentRepository {

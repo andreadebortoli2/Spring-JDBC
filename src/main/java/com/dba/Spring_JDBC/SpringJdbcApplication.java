@@ -1,4 +1,4 @@
-package com.dba.SpringJDBC;
+package com.dba.Spring_JDBC;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.dba.SpringJDBC.model.Student;
-import com.dba.SpringJDBC.service.StudentService;
+import com.dba.Spring_JDBC.model.Student;
+import com.dba.Spring_JDBC.service.StudentService;
 
 @SpringBootApplication
 public class SpringJdbcApplication {

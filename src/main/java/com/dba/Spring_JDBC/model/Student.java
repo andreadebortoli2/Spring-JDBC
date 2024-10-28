@@ -1,4 +1,4 @@
-package com.dba.SpringJDBC.model;
+package com.dba.Spring_JDBC.model;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
